@@ -7,7 +7,27 @@
     tools:context="project.i5.mobile2017proj.Intro">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Proj started" />
+        android:layout_gravity="top|right"
+        android:text="GACHON_MAPS"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER PAGE"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
 </RelativeLayout>

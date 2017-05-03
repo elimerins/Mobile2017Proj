@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Mobile2017Proj</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="facebook_app_id">1130877560350971</string>
 </resources>

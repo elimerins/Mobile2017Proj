@@ -12,3 +12,4 @@ public class Intro extends AppCompatActivity {
     } // Intro of App
 }
 
+//jj

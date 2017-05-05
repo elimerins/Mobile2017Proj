@@ -11,4 +11,4 @@ public class Intro extends AppCompatActivity {
         setContentView(R.layout.activity_intro);
     } // Intro of App
 }
-//test
+

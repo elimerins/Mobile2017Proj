@@ -10,4 +10,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="project.i5.mobile2017proj.MainMenu">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:text="GACHON_MAPS"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00ff0000"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCHOOL BOARD"
+        android:textSize="40dp"
+        android:background="#00ff0000"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER PAGE"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:background="#00ff0000"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="15dp"/>
 </RelativeLayout>

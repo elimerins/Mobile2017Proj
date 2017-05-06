@@ -12,11 +12,14 @@ public class Intro extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
         findViewById(R.id.signin).setOnClickListener(this);
+        findViewById(R.id.signup).setOnClickListener(this);
     } // Intro of App
     public void onClick(View v){
         switch(v.getId()){
             case R.id.signin:
                 startActivity(new Intent(this, MainMenu.class));
+            case R.id.signup:
+                startActivity(new Intent(this, Signup.class));
         }
     }
 }

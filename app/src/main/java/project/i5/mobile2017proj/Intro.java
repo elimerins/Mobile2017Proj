@@ -18,8 +18,10 @@ public class Intro extends AppCompatActivity implements View.OnClickListener {
         switch(v.getId()){
             case R.id.signin:
                 startActivity(new Intent(this, MainMenu.class));
+                break;
             case R.id.signup:
                 startActivity(new Intent(this, Signup.class));
+                break;
         }
     }
 }

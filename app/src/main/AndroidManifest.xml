@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".MainMenu" />
         <activity android:name=".Board.BoardMain" />
+        <activity android:name=".Board.BoardRegister"/>
         <activity android:name=".Map.MapMain" />
         <activity android:name=".Setting.SettingMain"></activity>
     </application>
